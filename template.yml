@@ -27,6 +27,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: index1.handler
+      CodeUri: ./dist/index1.js
       Runtime: nodejs4.3
       Role:
         Fn::ImportValue:
