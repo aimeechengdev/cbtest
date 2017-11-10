@@ -23,6 +23,7 @@ Resources:
           Properties:
             Path: /
             Method: get
+  GetHelloWorld1:
     Type: AWS::Serverless::Function
     Properties:
       Handler: index1.get
